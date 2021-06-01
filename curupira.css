@@ -15,37 +15,59 @@ body{
     display: flex;
     flex-direction: column;
 }
-header{
-        background-color: #000000AA;
-        height: 70px;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        padding: 0 10vw;
-    }
-    .logo img{
-        user-select: none;
-        width: 120px;
-    }
-    
-    .links ul{
-        display: flex;
-        gap: 20px;
-        color: white;
-        list-style-type: none;
-    }
-    
-    .links a {
-        color: white;
-        text-decoration: none;
-        font-size: 24px;
-        user-select: none;
-        transition: all 500ms;
-    }
-    
-    .links a:hover{
-        color: red;
-    }
+header {
+    top: 0;
+    background-color: #000000AA;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10vw;
+}
+
+.logo img{
+    width: 120px;
+}
+
+.links ul {
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+}
+
+.links a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    user-select: none;
+    transition: all 1s;
+}
+
+.links a:hover {
+    color: red;
+}
+
+.links ul .submenu {
+    margin-top: 1px;
+    display: none;
+    font-size: 12px;
+}
+
+.links ul:hover > .submenu{
+    display: block;
+ } 
+
+.submenu a{
+    width: 120%;
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 20px;
+    background-color: #000000BB;
+}
+
+.links ul .submenu a:hover{
+    border-left: 10px solid red;
+}
 
 main {
     

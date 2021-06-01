@@ -6,7 +6,7 @@
 
 header {
     top: 0;
-    background-color: #000000e1;
+    background-color: #000000AA;
     height: 70px;
     display: flex;
     justify-content: space-between;
@@ -14,17 +14,8 @@ header {
     padding: 0 10vw;
 }
 
-body{
-    width: 100vw;
-    height: 100vh;
-    background-image: url("img/Saci.jpg");
-    background-size: cover;
-    background-position: right top;
-    display: flex;
-    flex-direction: column;
-    font-family: 'Karla', sans-serif;
-    color: white;
-    background-color: #00000055;
+.logo img{
+    width: 120px;
 }
 
 .links ul {
@@ -43,6 +34,41 @@ body{
 
 .links a:hover {
     color: red;
+}
+
+.links ul .submenu {
+    margin-top: 1px;
+    display: none;
+    font-size: 12px;
+}
+
+.links ul:hover > .submenu{
+    display: block;
+ } 
+
+.submenu a{
+    width: 120%;
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 20px;
+    background-color: #000000BB;
+}
+
+.links ul .submenu a:hover{
+    border-left: 10px solid red;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background-image: url("img/Saci.jpg");
+    background-size: cover;
+    background-position: right top;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Karla', sans-serif;
+    color: white;
+    background-color: #00000055;
 }
 
 main{
