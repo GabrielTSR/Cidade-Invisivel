@@ -25,7 +25,6 @@ body{
     font-family: 'Karla', sans-serif;
     color: white;
     background-color: #00000055;
-    background-blend-mode: darken;
 }
 
 .links ul {
@@ -55,7 +54,6 @@ main{
     flex-grow: 1;
     justify-content: center;
     padding: 25vh 10vw;
-    background-blend-mode: darken;
 }
 
 main h1{

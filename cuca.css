@@ -8,12 +8,14 @@
 body{
     width: 100%;
     height: 100vh;
-    background-image:url(img/Curupira.png);
+    background-image:url(img/Cuca.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: right;
     display: flex;
     flex-direction: column;
+    background-color: #00000055;
+    background-blend-mode: darken;
 }
 header{
         background-color: #000000AA;
@@ -55,7 +57,7 @@ main {
 
 main h1{
     margin: 0px;
-    padding: 10vh 9vw;
+    padding: 10vh 11vw;
     position: relative;
     font-size: 80px;
     -webkit-text-stroke: 2px white;
@@ -97,7 +99,7 @@ main h1::after{
 .creditos ul{
 
     margin: 0px;
-    padding: 5vh 9vw;
+    padding: 5vh 0vw;
     font-size: 25px;
     gap: 20px;
     display: flex;
@@ -107,6 +109,12 @@ main h1::after{
 
 .papel{
     font-size: 20px;
+}
+
+main, footer {
+    background-image: url(img/chuva.gif);
+    background-blend-mode: darken;
+    background-color: #0000009c;
 }
 
     footer{
