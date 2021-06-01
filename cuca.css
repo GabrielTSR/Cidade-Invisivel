@@ -17,6 +17,7 @@ body{
     background-color: #00000055;
     background-blend-mode: darken;
 }
+
 header {
     top: 0;
     background-color: #000000AA;
@@ -52,23 +53,30 @@ header {
 .links ul .submenu {
     margin-top: 1px;
     display: none;
+    position: absolute;
     font-size: 12px;
 }
 
-.links ul:hover > .submenu{
-    display: block;
- } 
-
-.submenu a{
-    width: 120%;
-    display: flex;
-    justify-content: flex-start;
-    padding-left: 20px;
-    background-color: #000000BB;
+.links li ul{
+    position: relative;
 }
 
-.links ul .submenu a:hover{
+ .submenu {
+    background-color: #000000BB;
+ }
+
+.submenu a{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.submenu a:hover {
     border-left: 10px solid red;
+}
+
+.links li:hover > .submenu{
+    display: flex;
+    flex-direction: column;
 }
 
 main {

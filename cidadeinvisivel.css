@@ -19,9 +19,6 @@ header {
 }
 
 .links ul {
-    /* position: relative;
-    top: 0px;
-    left: 0px; */
     display: flex;
     gap: 20px;
     list-style-type: none;
@@ -50,21 +47,13 @@ header {
     position: relative;
 }
 
-/* .links ul:hover > .submenu{
-    display: block;
- }  */
-
  .submenu {
     background-color: #000000BB;
  }
 
 .submenu a{
-    /* position: absolute;
-    width: 500%;
-    */
     display: flex;
     justify-content: flex-start;
-    /* padding-left: 20px; */
 }
 
 .submenu a:hover {

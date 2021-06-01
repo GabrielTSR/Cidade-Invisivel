@@ -21,17 +21,67 @@
         color: white;
     
     }
-
-  header {
-
-    background-color: #000000AA;
-    height: 70px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 10vw;
-
-}
+    
+    header {
+        top: 0;
+        background-color: #000000AA;
+        height: 70px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 10vw;
+    }
+    
+    .logo img{
+        width: 120px;
+    }
+    
+    .links ul {
+        display: flex;
+        gap: 20px;
+        list-style-type: none;
+    }
+    
+    .links a{
+        color: white;
+        text-decoration: none;
+        font-size: 20px;
+        user-select: none;
+        transition: all 1s;
+    }
+    
+    .links a:hover {
+        color: red;
+    }
+    
+    .links ul .submenu {
+        margin-top: 1px;
+        display: none;
+        position: absolute;
+        font-size: 12px;
+    }
+    
+    .links li ul{
+        position: relative;
+    }
+    
+     .submenu {
+        background-color: #000000BB;
+     }
+    
+    .submenu a{
+        display: flex;
+        justify-content: flex-start;
+    }
+    
+    .submenu a:hover {
+        border-left: 10px solid red;
+    }
+    
+    .links li:hover > .submenu{
+        display: flex;
+        flex-direction: column;
+    }
 main{
     padding-top: 25vh;
     padding-left: 10vw;
