@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Karla', sans-serif;
+}
+
+header {
+    top: 0;
+    background-color: white;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10vw;
+
+}
+
+.logo img{
+    width: 130px;
+}
+
+body{
+    background-image: url(img/fundo_sobre.jpg);
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    background-position: right top;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Karla', sans-serif;
+    color: white;
+    background-color: #00000055;
+    background-blend-mode: darken;
+}
+
+main{
+    flex-grow: 1;
+    padding: 25vh 10vw;
+    }
+    
+    main h2{
+        font-size: 30px;
+    }
+    
+    main h1{
+        font-size: 70px;
+    }
+    
+    main p{
+        font-size: 25px;
+        font-weight: 200;
+        width: 800px;
+        max-width: 800px;
+    }
+    
+    main a{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+        color: white;
+        font-size: 20px;
+        width: 200px;
+        height: 50px;
+        background-color: goldenrod;
+        border-radius: 2px;
+        margin-top: 30px;
+    }
+    
+    main a:hover{
+        border: solid 1px goldenrod;
+        background-color: black;
+        transition: all 0,5s;
+    }
+    
+    footer{
+    text-align: center;
+    height: 40px;
+    }

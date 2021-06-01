@@ -66,6 +66,8 @@ header {
 
  .submenu {
     background-color: #000000BB;
+    margin-top: 1px;
+    position: absolute;
  }
 
 .submenu a{
@@ -80,6 +82,7 @@ header {
 .links li:hover > .submenu{
     display: flex;
     flex-direction: column;
+    gap: 1px;
 }
 
 main {

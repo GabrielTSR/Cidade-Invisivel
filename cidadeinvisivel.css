@@ -63,6 +63,7 @@ header {
 .links li:hover > .submenu{
     display: flex;
     flex-direction: column;
+    gap: 1px;
 }
 
 body{

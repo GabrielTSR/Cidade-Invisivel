@@ -81,6 +81,7 @@
     .links li:hover > .submenu{
         display: flex;
         flex-direction: column;
+        gap: 1px;
     }
 main{
     padding-top: 25vh;
