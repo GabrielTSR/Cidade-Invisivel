@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    top: 0;
+    background-color: #000000e1;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10vw;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background-image: url("img/Saci.jpg");
+    background-size: cover;
+    background-position: right top;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Karla', sans-serif;
+    color: white;
+    background-color: #00000055;
+    background-blend-mode: darken;
+}
+
+.links ul {
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+}
+
+.links a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    user-select: none;
+    transition: all 1s;
+}
+
+.links a:hover {
+    color: red;
+}
+
+main{
+    background-image: url(img/folhas.gif);
+    background-color: #00000096;
+    background-blend-mode: darken;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    justify-content: center;
+    padding: 25vh 10vw;
+    background-blend-mode: darken;
+}
+
+main h1{
+    font-size: 70px;
+}
+
+main h2{
+    font-size: 30px;
+}
+
+main p{
+    font-size: 25px;
+    font-weight: 200;
+    width: 600px;
+    max-width: 600px;
+}
+
+main a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+    background-color: tomato;
+    width: 200px;
+    height: 50px;
+    border-radius: 3px;
+    margin-top: 30px;
+}
+
+main a:hover{
+
+}
+
+footer{
+    text-align: center;
+    font-size: 20px;
+}
+
+.folhas{
+    max-height: 50px;
+    filter: brightness(10%);
+
+}
