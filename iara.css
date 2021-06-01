@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+ }
+ 
+ body{
+     width: 100vw;
+     height: 100vh;
+     background-size: cover;
+     background-color: #00000055;
+     background-blend-mode: darken;
+     background-repeat: no-repeat;
+     background-position: top;
+     display: flex;
+     flex-direction: column;
+     font-family: 'Karla', sans-serif;
+     color: white;
+     background-image: url(img/iara.jpg);
+ }
+
+ header{
+    background-color: #000000AA;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10vw;
+}
+
+.logo img{
+    width: 120px;
+}
+
+.links ul{
+   display: flex;
+   gap: 20px;
+   color: white;
+   list-style-type: none;
+}
+
+.links a{
+   color: white;
+   text-decoration: none;
+   font-size: 20px;
+   user-select: none;
+   transition: all 1s;
+}
+
+.links a:hover{
+   color: red;
+}
+
+main{
+    padding: 10vh 10vw;
+    flex-grow: 1;
+    height: 90px;
+}
+
+main h1{
+    position: relative;
+    font-size: 100px;
+    -webkit-text-stroke: 2px white;
+    color: transparent;
+}
+
+main h1::after{
+    content: "Iara";
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    font-size: 100px;
+    -webkit-text-stroke: 3px black;
+    color: transparent;
+    z-index: -1;
+}
+
+main .lenda{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.texto{
+    font-size: 25px;
+    font-weight: 200;
+    max-width: 400px;
+}
+
+main h2{
+    font-size: 30px;
+    color: #D81F26;
+    transform: rotate(-90deg);
+}
+
+.p1{
+    padding-left:20px;
+    padding-right: 20px;
+    border-right: 3px solid#D81F26;
+}
+
+.p2{
+    padding-left: 20px;
+    padding-right: 20px; 
+    border-right: 3px solid#D81F26;
+
+}
+
+.p3{
+    padding-left: 20px;
+    padding-right: 20px;
+    
+}
+
+.personagens h3{
+    font-size: 25px;
+    
+}
+
+.personagens p{
+    font-size: 18px;
+   
+}
+
+.personagens{
+    font-style: italic;
+    display: flex;
+    flex-direction: row;
+    padding: 0vh 1vh;
+    margin-top: 40px;
+}
+
+footer{
+    text-align: center;
+}
+
