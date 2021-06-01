@@ -12,7 +12,7 @@
 
 header {
     top: 0;
-    background-color: #000000AA;
+    background-color: #000000ef;
     height: 70px;
     display: flex;
     justify-content: space-between;
@@ -54,6 +54,7 @@ header {
 }
 
  .submenu {
+    font-size: 18px;
     background-color: #000000BB;
  }
 

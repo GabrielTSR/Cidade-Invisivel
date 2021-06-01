@@ -15,11 +15,6 @@ body{
     display: flex;
     flex-direction: column;
 }
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 
 header {
     top: 0;
@@ -54,7 +49,7 @@ header {
 }
 
 .links ul .submenu {
-    margin-top: 1px;
+    margin-top: 0px;
     display: none;
     position: absolute;
     font-size: 12px;
@@ -65,8 +60,8 @@ header {
 }
 
  .submenu {
+    font-size: 18px;
     background-color: #000000BB;
-    margin-top: 1px;
     position: absolute;
  }
 

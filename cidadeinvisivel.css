@@ -37,7 +37,6 @@ header {
 }
 
 .links ul .submenu {
-    margin-top: 1px;
     display: none;
     position: absolute;
     font-size: 12px;
@@ -54,6 +53,7 @@ header {
 .submenu a{
     display: flex;
     justify-content: flex-start;
+    font-size: 18px;
 }
 
 .submenu a:hover {
@@ -81,7 +81,7 @@ body{
 }
 
 main{
-flex-grow: 1;
+flex-grow: 6;
 padding: 25vh 10vw;
 }
 
