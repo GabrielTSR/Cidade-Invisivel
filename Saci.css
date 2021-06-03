@@ -4,15 +4,9 @@
     box-sizing: border-box;
 }
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 header {
     top: 0;
-    background-color: #000000ef;
+    background-color: #000000c7;
     height: 70px;
     display: flex;
     justify-content: space-between;
@@ -83,13 +77,12 @@ body{
     flex-direction: column;
     font-family: 'Karla', sans-serif;
     color: white;
-    background-color: #00000055;
+    background-color: #00000096;
+    background-blend-mode: darken;
 }
 
 main{
     background-image: url(img/folhas.gif);
-    background-color: #00000096;
-    background-blend-mode: darken;
     display: flex;
     flex-direction: column;
     flex-grow: 1;

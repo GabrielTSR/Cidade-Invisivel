@@ -130,7 +130,7 @@ height: 40px;
     width: 60px;
     top: 90vh;
     left: 90vw;
-    filter: brightness(10%);
+    filter: brightness(8%);
     animation: voar 20s Linear infinite;
 }
 
