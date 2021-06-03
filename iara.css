@@ -95,21 +95,9 @@ main{
 }
 
 main h1{
-    position: relative;
     font-size: 100px;
     -webkit-text-stroke: 2px white;
     color: transparent;
-}
-
-main h1::after{
-    content: "Iara";
-    position: absolute;
-    top: 4px;
-    left: 4px;
-    font-size: 100px;
-    -webkit-text-stroke: 3px black;
-    color: transparent;
-    z-index: -1;
 }
 
 main .lenda{
